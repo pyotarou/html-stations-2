@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@techtrain/cli-railway": "^0.1.11",
-    "cypress": "^8.4.0",
+    "cypress": "8.4.0",
     "htmlhint": "^0.15.2",
     "lite-server": "^2.6.1",
     "prettier": "^2.4.1",
@@ -23,6 +23,7 @@
     "pre-commit": "yarn hook:pre-commit"
   },
   "dependencies": {
-    "cypress-real-events": "^1.7.0"
+    "cypress-real-events": "^1.7.0",
+    "http-server": "^14.1.1"
   }
 }
